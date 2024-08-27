@@ -13,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -29,7 +29,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -37,12 +37,12 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Anish Nethi Profile picture">
+            <img src="./assets/me.jpg" alt="Anish Nethi Profile picture">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Anish Nethi</h1>
-            <p class="section__text__p2">Machine Learning Enthusiast</p>
+            <p class="section__text__p2">Computer Vision & AI Enthusiast</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" 
                 onclick="window.open('./assets/Summer_2025_Internships_Resume.pdf')"
@@ -70,6 +70,12 @@
                 />
             </div>
         </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#about'"
+        />
     </section>
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
@@ -77,7 +83,7 @@
         <div class="section-container">
             <div class="section__pic-container">
                 <img 
-                src="./assets/about-pic.png" 
+                src="./assets/file.jpg" 
                 alt="Profile picture" 
                 class="about-pic"
                 />
@@ -91,7 +97,7 @@
                         class="icon"
                         />
                         <h3>Experience</h3>
-                        <p>2+ years <br>Machine Learning Engineer</p>
+                        <p>UT Austin, IIT Guwahati, National University of Singapore, Mahindra University, InterviewKickstart, AlgoFnO</p>
                     </div>
                     <div class="details-container">
                         <img 
@@ -100,11 +106,11 @@
                         class="icon"
                         />
                         <h3>Education</h3>
-                        <p>B.Tech Computer Science and Engineering <br />M.Sc. Computer Science</p>
+                        <p>B.Tech Computer Science and Engineering @ Mahindra University <br />M.Sc. Computer Science @ The University of Texas at Austin</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>I am Anish Nethi a MSCS student at UT Austin</p>
+                    <p>I am Anish Nethi, an MSCS grad student at UT Austin, focused on computer vision and AI. I’m currently working on some interesting research in 3D computer vision and computational mathematics and TA-ing a Discrete Math course this semester. When I’m not caught up in academics, I enjoy playing badminton, watching anime, or going bowling.</p>
                 </div>
             </div>
         </div>
@@ -117,10 +123,10 @@
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-container">
+                <!-- <div class="details-container">
                     <h2 class="experience-sub-title">Machine Learning</h2>
                     <div class="article-container">
                         <article>
@@ -190,9 +196,9 @@
                             </div>
                         </article>
                     </div>
-                </div>
+                </div> -->
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Computer Vision</h2>
+                    <!-- <h2 class="experience-sub-title">Computer Vision</h2> -->
                     <div class="article-container">
                         <article>
                             <img 
@@ -202,6 +208,50 @@
                             />
                             <div>
                                 <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Tensorflow</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
@@ -223,29 +273,40 @@
                             class="icon"
                             />
                             <div>
-                                <h3>Tensorflow</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon"
-                            />
-                            <div>
-                                <h3>OpenCV</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon"
-                            />
-                            <div>
                                 <h3>PyTorch</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Scikit-Learn</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Research</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Computer Vision</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
@@ -258,6 +319,83 @@
                             <div>
                                 <h3>Deep Learning</h3>
                                 <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>EDA</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Feature Engineering</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Problem Solving</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Web Scraping</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Communication</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Beginner</p>
                             </div>
                         </article>
                     </div>
@@ -279,62 +417,86 @@
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-1.png" 
+                        src="./assets/CGER.png" 
                         alt="Project 1"
                         class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Cohesive Group Emotion Recognition using Deep Learning</h2>
                     <div class="btn-container">
                         <button 
                         class="btn btn-color-2 project-btn" 
-                        onclick="location.href='https://github.com'"
+                        onclick="location.href='https://doi.org/10.1109/SNPD-Winter57765.2023.10466291'"
                         >
-                            Github
-                        </button>
-                        <button 
-                        class="btn btn-color-2 project-btn" 
-                        onclick="location.href='https://github.com'"
-                        >
-                            Live Demo
+                            Paper
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-2.png" 
+                        src="./assets/PDEs.png" 
                         alt="Project 2"
                         class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Multiplicative Gaussian Noise Removal using PDEs</h2>
                     <div class="btn-container">
                         <button 
                         class="btn btn-color-2 project-btn" 
-                        onclick="location.href='https://github.com'"
+                        onclick="location.href='https://dl.acm.org/doi/abs/10.1145/3631908.3631931'"
                         >
-                            Github
-                        </button>
-                        <button 
-                        class="btn btn-color-2 project-btn" 
-                        onclick="location.href='https://github.com'"
-                        >
-                            Live Demo
+                            Paper
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-3.png" 
+                        src="./assets/BMI.png" 
                         alt="Project 3"
                         class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <h2 class="experience-sub-title project-title">BMI Prediction for Full Body Images using PoseNet Embeddings</h2>
                     <div class="btn-container">
                         <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://doi.org/10.1109/ICETCI58599.2023.10331195'"
+                        >
+                            Paper
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                        src="./assets/DeepFakes.png" 
+                        alt="Project 3"
+                        class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Detecting DeepFakes: A Deep CNN Approach with Depth Wise Separable Convolutions </h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://doi.org/10.1109/ICETCI58599.2023.10331449'"
+                        >
+                            Paper
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <!-- <img 
+                        src="./assets/project-3.png" 
+                        alt="Project 3"
+                        class="project-img"
+                        /> -->
+                    </div>
+                    <h2 class="experience-sub-title project-title">Enhancing Road Marking Classification through Texture Overlay using Neural Networks</h2>
+                    <div class="btn-container">
+                        <!-- <button 
                         class="btn btn-color-2 project-btn" 
                         onclick="location.href='https://github.com'"
                         >
@@ -345,7 +507,31 @@
                         onclick="location.href='https://github.com'"
                         >
                             Live Demo
+                        </button> -->
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <!-- <img 
+                        src="./assets/project-3.png" 
+                        alt="Project 3"
+                        class="project-img"
+                        /> -->
+                    </div>
+                    <h2 class="experience-sub-title project-title">Predicting Naturalistic Eye Scanpaths from Saliency Maps: Spatial and Temporal Modeling of Eye Movement Behavior with Neural Networks</h2>
+                    <div class="btn-container">
+                        <!-- <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com'"
+                        >
+                            Github
                         </button>
+                        <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com'"
+                        >
+                            Live Demo
+                        </button> -->
                     </div>
                 </div>
             </div>
@@ -354,7 +540,7 @@
         src="./assets/arrow.png" 
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
         />
     </section>
     <section id="contact">
@@ -384,7 +570,7 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#experience">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
